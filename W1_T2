@@ -1,0 +1,30 @@
+a = str(input())
+b = int(input())
+c = 'ложка'
+d = 'ложки'
+e = 'ложек'
+f = 'утюг'
+g = 'утюга'
+h = 'утюгов'
+if (a == c):
+    if (b % 10 == 1) and (b % 100 != 11):
+        print (b, a)
+    elif (b % 10 == 2) and (b % 100 != 12):
+        print (b, d)
+    elif (b % 10 == 3) and (b % 100 != 13):
+        print (b, d)
+    elif (b % 10 == 4) and (b % 100 != 14):
+        print (b, d)
+    else:
+        print (b, e)
+if (a == f):
+    if (b % 10 == 1) and (b % 100 != 11):
+        print (b, a)
+    elif (b % 10 == 2) and (b % 100 != 12):
+        print (b, g)
+    elif (b % 10 == 3) and (b % 100 != 13):
+        print (b, g)
+    elif (b % 10 == 4) and (b % 100 != 14):
+        print (b, g)
+    else:
+        print (b, h)
